@@ -20,4 +20,4 @@ ls -lrt /app/bin/config/templates/
 # replace hello with goodbye in a new file
 cp $1/nginx/config/templates/nginx.conf.erb /app/bin/config/templates/nginx.conf.erb
 
-exit 0
+exit 1
