@@ -10,6 +10,13 @@ if [ ! -s $1/nginx/config/templates/nginx.conf.erb ]; then
   exit 1
 fi
 
+ls -lrt /app/
+ls -lrt /app/bin/
+ls -lrt /app/bin/config/
+ls -lrt /app/bin/config/templates/
+
+
+
 # replace hello with goodbye in a new file
 cp $1/nginx/config/templates/nginx.conf.erb /app/bin/config/templates/nginx.conf.erb
 
