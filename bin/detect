@@ -1,5 +1,13 @@
 #!/bin/sh
 
+echo "Detecting ...."
+
+echo "Args $1"
+
+echo "$1/nginx/config/templates/nginx.conf.erb"
+
+ls -lrt $1/nginx/config/templates/nginx.conf.erb
+
 # this pack is valid for apps with a nginx/config/templates/nginx.conf.erb template file
 if [ -f $1/nginx/config/templates/nginx.conf.erb ]; then
   echo "HelloFramework"
