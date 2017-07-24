@@ -2,7 +2,6 @@
 
 set -e
 
-indent() {
 echo "-----> Found a nginx/config/templates/nginx.conf.erb"
 
 # if file is empty, abort the build
