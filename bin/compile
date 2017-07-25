@@ -6,7 +6,7 @@ echo "-----> Found a nginx/config/templates/nginx.conf.erb"
 
 # if file is empty, abort the build
 if [ ! -s $1/nginx/config/templates/nginx.conf.erb ]; then
-  echo "nginx/config/templates/nginx.conf.erb was empty" | indent
+  echo "nginx/config/templates/nginx.conf.erb was empty"
   exit 1
 fi
 
